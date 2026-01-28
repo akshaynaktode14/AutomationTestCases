@@ -22,7 +22,7 @@ int min=array[0];
 				min=array[i];
 			}
 		}
-		System.out.println("max element :" +min);
+		System.out.println("min element :" +min);
 	}
 
 }

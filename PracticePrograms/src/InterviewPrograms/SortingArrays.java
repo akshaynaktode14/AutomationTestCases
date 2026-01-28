@@ -20,7 +20,7 @@ public static void main(String args[])
 	System.out.println(c);
 	}
 	// String array sorting
-	String data2[] = { "z", "a", "x" };
+	String data2[] = { "z", "a", "x","d","k" };
 	Arrays.sort(data2);
 	for (String c : data2)
 	{

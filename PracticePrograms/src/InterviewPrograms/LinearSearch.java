@@ -7,12 +7,12 @@ public class LinearSearch {
 		
 		int array[]= {10,20,30,80,65,05,84,32,14};
 		
-		int search_num=89;
+		int search_num=80;
 		int i;
 		for(i=0;i<array.length;i++) {
 			if(array[i]==search_num)
 			{
-				System.out.println("search number is: " +array[i]);
+				System.out.println("search number is: " +array[i] +" is found at location " +i);
 				break;
 			}
 		}

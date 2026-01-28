@@ -27,6 +27,7 @@ public class ReverseChars {
 		reverse = reverse + originalString.charAt(i);
 		}
 		return reverse;
+		
 
 	}
 
