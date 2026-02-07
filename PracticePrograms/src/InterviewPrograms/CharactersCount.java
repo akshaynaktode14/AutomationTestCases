@@ -3,26 +3,20 @@ package InterviewPrograms;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class CharactersCount {
     public static void main(String[] args) {
         String input = "auaatomation teesting with selenium";
 
-        // Convert string to lowercase (optional) to count uniformly
-        input = input.toLowerCase();
+        Map<Character, Integer> counts = new HashMap<>();
 
-        // Create a HashMap to store character counts
-        Map<Character, Integer> charCountMap = new HashMap<>();
-
-        // Loop through each character
-        for (char c : input.toCharArray()) {
-            if (c != ' ') { // ignore spaces
-                charCountMap.put(c, charCountMap.getOrDefault(c, 0) + 1);
+        for (char c : input.toLowerCase().toCharArray()) {
+            if (c != ' ') { // skip spaces
+                counts.put(c, counts.getOrDefault(c, 0) + 1);
             }
         }
 
-        // Print results
-        for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
-            System.out.println(entry.getKey() + " : " + entry.getValue());
-        }
+        counts.forEach((ch, count) -> System.out.println(ch + " : " + count));
     }
 }
