@@ -16,6 +16,12 @@ public class CountTheWords {
 				count++;
 			}
 		}
+		/*=========================================================================
+		String[] str1=s.trim().split("\\s+");
+		int count=str1.length;
+		
+		=====================================================
+				*/
 		System.out.println("Number of words present in the string are:" + count);
 
 //		{

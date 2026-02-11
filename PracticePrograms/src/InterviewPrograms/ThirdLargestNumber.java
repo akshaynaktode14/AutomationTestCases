@@ -16,7 +16,7 @@ public class ThirdLargestNumber {
 			}
 		}
 		if(words.length>=3) {
-			System.out.println("Third largest number is "+ words[2]);
+			System.out.println("Third largest word is "+ words[2]);
 		}
 		else {
 			System.out.println("Not enought words");
