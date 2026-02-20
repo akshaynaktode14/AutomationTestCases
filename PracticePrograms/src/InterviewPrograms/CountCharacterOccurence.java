@@ -15,7 +15,7 @@ public class CountCharacterOccurence {
 		System.out.println("enter the character what to seacrh");
 		String c = sc.nextLine();
 		int count = s.length() - s.replace(c, "").length();
-		System.out.println("Number of occurances of 'a' is: " + count);
+		System.out.println("Number of occurances of "+ c+ " is: " + count);
 
 	}
 

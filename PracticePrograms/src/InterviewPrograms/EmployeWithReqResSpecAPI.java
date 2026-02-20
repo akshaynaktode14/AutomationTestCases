@@ -72,7 +72,7 @@ public class EmployeWithReqResSpecAPI {
 			.put("/employee/{id}")
 		.then()
 			.spec(responseSpec)
-			.body("city",equalTp("Nagpur"))
+			.body("city",equalTo("Nagpur"))
 			.log().all();
 		
 //		==================================

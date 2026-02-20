@@ -4,7 +4,7 @@ public class ReplaceCharWithHash {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str="akoshoyomo";
+		String str="akoshoyomo  oyo";
 		StringBuilder output= new StringBuilder();
 		int count=0;
 		for(char ch:str.toCharArray()) {

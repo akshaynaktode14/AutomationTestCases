@@ -5,7 +5,7 @@ public class ReversRepeatedWords {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String str="java is easy amd and java is powerful language amd";
+		String str="THE is java is easy amd and java is powerful language amd";
 		System.out.println(str);
 		String[] words=str.split(" ");
 		/* //if 1st occurences want to reverse
