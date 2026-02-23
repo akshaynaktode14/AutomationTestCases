@@ -1,6 +1,6 @@
 package InterviewPrograms;
 
-public class ReverseStringCapG {
+public class ReverseStringCapG6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
