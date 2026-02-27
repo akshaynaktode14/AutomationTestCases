@@ -8,14 +8,19 @@ public class MaxRepeatedChar {
         String sentence = "Java is java again java again";
         sentence = sentence.replaceAll("\\s+", ""); // Remove spaces
 
-//        Map<Character, Integer> charCount = new HashMap<>();
-//
-//        // Count frequency of each character
-//        for (char ch : sentence.toCharArray()) {
-//            charCount.put(ch, charCount.getOrDefault(ch, 0) + 1);
-//        }
+        Map<Character, Integer> charCount = new HashMap<>();
 
-        // Find character with max frequency
+       /* // Count frequency of each character
+        for (char ch : sentence.toCharArray()) {
+            charCount.put(ch, charCount.getOrDefault(ch, 0) + 1);
+        }
+        System.out.println("Character frequencies:");
+        for (Map.Entry<Character, Integer> entry : charCount.entrySet()) {
+            System.out.println("'" + entry.getKey() + "' occurred " + entry.getValue() + " times");
+        }*/
+
+
+      // Find character with max frequency
         char maxChar = ' ';
         int maxCount = 0;
 

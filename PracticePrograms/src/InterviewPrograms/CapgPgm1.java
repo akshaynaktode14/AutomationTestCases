@@ -20,7 +20,9 @@ public class CapgPgm1 {
 				a+=ch;
 			}
 		}
-		System.out.print("Number : "+r+" characters : "+a);
+		System.out.println("Number : "+r+" characters : "+a);
+		String str1=str.replaceAll("[^a-zA-Z]", "");
+		System.out.println(str1);
 		
 	}
 
