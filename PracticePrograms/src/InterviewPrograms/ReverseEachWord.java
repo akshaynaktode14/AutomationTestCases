@@ -19,6 +19,7 @@ public class ReverseEachWord {
 //		{
 		String[] words = inputString.split(" ");
 		String reverseString = "";
+		String ab="";
 		for (int i = 0; i < words.length; i++)
 		
 		{
@@ -30,7 +31,11 @@ public class ReverseEachWord {
 		}
 		reverseString = reverseString + reverseWord + " ";
 		}
+		for(int i=words.length-1;i>=0;i--) {
+			ab=ab+words[i]+" ";
+		}
 		System.out.println(inputString);
+		System.out.println(ab);
 		System.out.println(reverseString);
 		System.out.println("-------------------------");
 		}

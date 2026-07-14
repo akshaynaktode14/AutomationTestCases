@@ -2,12 +2,13 @@ package InterviewPrograms;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import java.util.*;
+import java.util.Scanner;
 
 public class CharactersCount {
     public static void main(String[] args) {
-        String input = "auaatomation teesting with selenium";
+    	Scanner sc= new Scanner(System.in);
+		System.out.println("enter the string");
+		String input = sc.nextLine();
 
         Map<Character, Integer> counts = new HashMap<>();
 
@@ -18,5 +19,9 @@ public class CharactersCount {
         }
 
         counts.forEach((ch, count) -> System.out.println(ch + " : " + count));
+        
+//        for(Map.Entry<Character, Integer> entry : counts.entrySet()) {
+//        	System.out.println(entry.getKey() + " : "+ entry.getValue());
+//        }
     }
 }

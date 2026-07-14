@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class MaxRepeatedChar {
     public static void main(String[] args) {
-        String sentence = "Java is java again java again";
+        String sentence = "Java is iiiiiiii java again jjj java again";
         sentence = sentence.replaceAll("\\s+", ""); // Remove spaces
 
         Map<Character, Integer> charCount = new HashMap<>();
