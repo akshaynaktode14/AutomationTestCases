@@ -18,10 +18,10 @@ public class CharactersCount {
             }
         }
 
-        counts.forEach((ch, count) -> System.out.println(ch + " : " + count));
+       // counts.forEach((ch, count) -> System.out.println(ch + " : " + count));
         
-//        for(Map.Entry<Character, Integer> entry : counts.entrySet()) {
-//        	System.out.println(entry.getKey() + " : "+ entry.getValue());
-//        }
+        for(Map.Entry<Character, Integer> entry : counts.entrySet()) {
+        	System.out.println(entry.getKey() + " : "+ entry.getValue());
+        }
     }
 }
